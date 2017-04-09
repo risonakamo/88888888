@@ -1,0 +1,24 @@
+body
+{
+    margin: 0;
+}
+
+#eight
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#eight video
+{
+    position: relative;
+    width: 100%;
+    top: 50%;
+    transform: translate(0%,-50%);
+    z-index: 5;
+    cursor: pointer;
+}
